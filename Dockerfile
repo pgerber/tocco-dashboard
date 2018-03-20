@@ -1,7 +1,7 @@
 FROM node:8.6.0-alpine
 
 # Set a working directory
-WORKDIR /usr/src/app
+WORKDIR /app
 
 COPY ./build/package.json .
 COPY ./build/yarn.lock .
